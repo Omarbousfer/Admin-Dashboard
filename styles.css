@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-auto-rows: minmax(170px, auto);
+    grid-template-areas:
+    "sb hr hr hr hr hr hr hr hr"
+    "sb ct ct ct ct ct ct ct ct"
+    "sb ct ct ct ct ct ct ct ct"
+    "sb ct ct ct ct ct ct ct ct"
+    "sb ct ct ct ct ct ct ct ct"
+    "sb ct ct ct ct ct ct ct ct"
+    "sb ct ct ct ct ct ct ct ct"
+    "ft ft ft ft ft ft ft ft ft"  
+    ;
+}
+.sidebar {
+    grid-area: sb;
+    background-color: #0f172a;
+}
+
+.header {
+    grid-area: hr;
+    background-color: #334155;
+}
+
+.content {
+    grid-area: ct;
+    background-color: #64748b;
+}
+
+.footer {
+    grid-area: ft;
+    background-color: #334155;
+}
+
+i {
+    color: white;
+}
+
+.dashboard {
+    display: flex;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.home, .profile, .messages, .history, .tasks, .communities, .settings, .support, .privacy {
+    display: flex;
+    color: white;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sidebar p {
+    margin-left: 20px;
+}
+
+.sidebar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
