@@ -73,3 +73,90 @@ i {
     text-decoration: none;
     color: white;
 }
+
+/*******************************************************************************/
+.first-header {
+    display: flex;
+    align-items: center;
+    margin: 20px 40px 30px 40px;
+}
+
+.first-header i {
+    font-size: 1.2rem;
+}
+
+.first-header input {
+    background-color: #485c79;
+    border: unset;
+    height: 20px;
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 60px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.first-header img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 25px;
+    border-radius: 25px;
+}
+
+.first-header p {
+    color: white;
+    font-weight: 700;
+}
+
+.second-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.second-header div:first-child {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.second-header img {
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.second-header p {
+    color: white;
+    font-size: 1.1rem;
+}
+.second-header p:last-child {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.second-header div:last-child {
+    margin-right: 70px;
+}
+
+.second-header button {
+    background-color: #627ea5;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 30px;
+    color: white;
+    border: unset;
+    font-weight: 900;
+    font-size: 0.8rem;
+    transition: 0.2s;
+}
+
+.second-header button:hover {
+    background-color: #80a4d8;
+    cursor: pointer;
+}
