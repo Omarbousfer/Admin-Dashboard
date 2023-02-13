@@ -88,11 +88,11 @@ i {
 .first-header input {
     background-color: #485c79;
     border: unset;
-    height: 20px;
+    height: 30px;
     width: 600px;
     margin-left: 20px;
     margin-right: 60px;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     text-align: center;
     font-size: 0.9rem;
@@ -160,3 +160,135 @@ i {
     background-color: #80a4d8;
     cursor: pointer;
 }
+
+/************************************************************************/
+
+.content {
+    display: flex;
+}
+
+.projects, .annoucements-trending {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.urp, .ann, .trd {
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.prjcts {
+    display: grid;
+    grid-template-areas:
+    "one two"
+    "three four"
+    "five sex"
+    ;
+    gap: 40px 20px;
+}
+
+.box-one, .box-two, .box-three, .box-four, .box-five, .box-sex {
+    background-color: #0f172a;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-one {
+    grid-area: one;
+}
+
+.box-one p:first-child, .box-two p:first-child, .box-three p:first-child, .box-four p:first-child, .box-five p:first-child, .box-sex p:first-child {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.box-two {
+    grid-area: two;
+}
+.box-three {
+    grid-area: three;
+}
+.box-four {
+    grid-area: four;
+}
+.box-five {
+    grid-area: five;
+}
+.box-sex {
+    grid-area: sex;
+}
+
+.three-icons {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.three-icons a {
+    margin-right: 20px;
+    font-size: 1.3rem;
+}
+.three-icons a:hover {
+    font-size: 1.7rem;
+}
+
+.annoucements, .trending {
+    background-color: #334155;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 2px 1px 11px 10px rgba(51,65,85,0.38);
+    -webkit-box-shadow: 2px 1px 5px 7px rgba(51,65,85,0.38);
+    -moz-box-shadow: 2px 1px 5px 7px rgba(51,65,85,0.38);
+    border-radius: 15px;
+    font-size: 0.85rem;
+}
+
+.annoucements div {
+    margin-bottom: 20px;
+}
+.annoucements div:last-child {
+    margin-bottom: 0;
+}
+
+.annoucements div p:first-child {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+hr {
+    opacity: 20%;
+    margin-top: 10px;
+}
+
+.trd {
+    margin-top: 20px;
+}
+
+.trending img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.first-trending, .second-trending, .third-trending, .four-trending {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.trending p:last-of-type {
+    color: rgba(255, 255, 255, 0.479);
+    margin-top: 3px;
+}
+
+/***********************************************************************************/
