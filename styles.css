@@ -18,7 +18,6 @@
     "sb ct ct ct ct ct ct ct ct"
     "sb ct ct ct ct ct ct ct ct"
     "sb ct ct ct ct ct ct ct ct"
-    "ft ft ft ft ft ft ft ft ft"  
     ;
 }
 .sidebar {
@@ -35,12 +34,6 @@
     grid-area: ct;
     background-color: #64748b;
 }
-
-.footer {
-    grid-area: ft;
-    background-color: #334155;
-}
-
 i {
     color: white;
 }
@@ -292,3 +285,4 @@ hr {
 }
 
 /***********************************************************************************/
+
